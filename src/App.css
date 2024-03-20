@@ -231,7 +231,6 @@
 }
 .common-card {
   background: #1E1E1E73;
-  /* max-width: 364px; */
   border-radius: 30px;
   padding: 49px 26px 49px 26px;
   border: 1px solid transparent;
@@ -242,7 +241,7 @@
   opacity: 6%;
 }
 .common-card:hover {
-  transform: translateY(-15%);
+  transform: translateY(-15%) !important;
 }
 .box {
   position: relative;
