@@ -1,25 +1,62 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+import Slidersec from './components/Slidersec';
+import Gamesec from './components/Gamesec';
+import Levelsec from './components/Levelsec';
+import Movesec from './components/Movesec';
+import World from './components/World';
+import Behind from './components/Behind';
+import Next from './components/Next';
+import Roadmap from './components/Roadmap';
+import Form from './components/Form';
+import Footer from './components/Footer';
+import Backtop from './components/Backtop';
+import Preloader from './components/Preloader';
+import { useState, useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  const [data, setdata] = useState(false);
+  useEffect(() => {
+    setdata(true);
+    setTimeout(() => {
+      setdata(false);
+    }, 4000);
+  }, []);
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 1000,
+      easing: "linear",
+    });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {data ? (
+        <div>
+          <Preloader />
+        </div>
+      ) : (
+        <div className="App bg-black overflow-x-hidden overflow-y-hidden overflow-hidden">
+          <Header />
+          <Slidersec />
+          <Gamesec />
+          <Levelsec />
+          <Movesec />
+          <World />
+          <Behind />
+          <Next />
+          <Roadmap />
+          <Form />
+          <Footer />
+          <Backtop />
+        </div>
+      )}
     </div>
-  );
+  )
 }
 
 export default App;
