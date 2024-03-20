@@ -407,6 +407,9 @@
 .overflow-x-clip {
   overflow-x: clip !important;
 }
+.overflow_y_hidden{
+  overflow-y: clip !important;
+}
 /* ----------------------------padding------------------------- */
 .py-19 {
   padding-top: 19px;
@@ -527,12 +530,12 @@
   opacity: 0.75;
   background: #ad1aaf;
   position: absolute;
-  bottom: 0;
-  /* top: 0; */
+  bottom: -48%;
   left: -10%;
   border-radius: 50%;
   filter: blur(185.33px);
   z-index: -1;
+  mix-blend-mode: screen !important;
 }
 .orange-ellipse {
   width: 362.9px;
@@ -552,7 +555,7 @@
   opacity: 0.75;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   position: absolute;
-  top: 13%;
+  bottom: -13%;
   right: -7%;
   border-radius: 50%;
   filter: blur(185.33px);
@@ -564,8 +567,8 @@
   opacity: 0.75;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   position: absolute;
-  top: 13%;
-  right: -7%;
+  bottom: -93%;
+  right: 0%;
   border-radius: 50%;
   filter: blur(185.33px);
   z-index: -1;

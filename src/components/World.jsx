@@ -7,6 +7,7 @@ const World = () => {
     <div
       className="container pt-lg-5 position-relative z-1 mt-lg-5 "
       data-aos="zoom-in"
+      id="OurTeam"
     >
       <div className="pt-lg-5">
         <p className="text-white ff-flex fw-bold fs-md1 lh-62 text-center pt-5 pb-lg-3 mb-0">

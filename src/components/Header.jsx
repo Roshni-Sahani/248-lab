@@ -26,7 +26,7 @@ const Header = () => {
               <li onClick={() => setshow(!show)}>
                 <a
                   className=" gry ff-flex fs-xs navhover list-unstyled text-decoration-none fw-normal lh-24 nav_line position-relative"
-                  href="#brand"
+                  href="#OurTeam"
                 >
                   Our Team
                 </a>
@@ -34,7 +34,7 @@ const Header = () => {
               <li onClick={() => setshow(!show)}>
                 <a
                   className="gry ff-flex fs-xs navhover list-unstyled text-decoration-none fw-normal lh-24 nav_line position-relative"
-                  href="#about"
+                  href="#Roadmap"
                 >
                   Roadmap
                 </a>

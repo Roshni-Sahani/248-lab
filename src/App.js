@@ -40,19 +40,23 @@ function App() {
           <Preloader />
         </div>
       ) : (
-        <div className="App bg-black overflow-x-hidden overflow-y-hidden overflow-hidden">
-          <Header />
-          <Slidersec />
-          <Gamesec />
-          <Levelsec />
-          <Movesec />
-          <World />
-          <Behind />
-          <Next />
-          <Roadmap />
-          <Form />
-          <Footer />
-          <Backtop />
+        <div className="App bg-black">
+          <div className='overflow-x-hidden bg-black'>
+            <Header />
+            <Slidersec />
+            <Gamesec />
+            <Levelsec />
+            <Movesec />
+            <World />
+            <Behind />
+            <Next />
+            <Roadmap />
+            <Form />
+            <div className='overflow-hidden'>
+              <Footer />
+            </div>
+            <Backtop />
+          </div>
         </div>
       )}
     </div>

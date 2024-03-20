@@ -80,7 +80,7 @@ const Gamesec = () => {
       <p className="fs-lg1 ff-flex text-white op-6 fw-bold txt-position">
         About Us
       </p>
-      <div className="purple-ellipse"></div>
+      <div className="purple-ellipse d-none d-md-block"></div>
     </div>
   );
 };
