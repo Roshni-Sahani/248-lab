@@ -39,7 +39,7 @@ const Header = () => {
                   Roadmap
                 </a>
               </li>
-              <li className="contact-btn">
+              <li>
                 <a
                   href=""
                   className="text-white ff-flex fs-sm lh-27 fw-bold text-decoration-none contact-btn"

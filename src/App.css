@@ -299,13 +299,13 @@
 .contact-btn {
   padding: 12px 32px;
   border-radius: 261px;
-  border: none;
+  border: 0;
   outline: 2px solid transparent;
   transition: all .3s linear;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%) !important;
 }
 .contact-btn:hover {
-  background: transparent;
+  background: transparent !important;
   outline: 2px solid white;
 }
 .try-btn {
