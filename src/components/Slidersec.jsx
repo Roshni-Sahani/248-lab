@@ -44,7 +44,7 @@ const Slidersec = () => {
   };
   return (
     <div className="container pt-lg-5 pb-lg-160 mt-5 overflow-hidden">
-      <Slider {...settings} className="center-slider">
+      <Slider {...settings} className="center-slider mt-132">
         <div className="px-5 d-flex align-items-end h-235 slider-hover">
           <img src={sliderimg1} alt="sliderimg1" />
         </div>
