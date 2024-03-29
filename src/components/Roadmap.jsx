@@ -4,7 +4,7 @@ import line from "../assets/images/line.webp";
 const Roadmap = () => {
   return (
     <div className="pt-5 mt-5 position-relative z-1  map-bg" id="Roadmap">
-      <div className="container position-relative mt-5 pt-5">
+      <div className="container position-relative mt-lg-5 pt-lg-5">
         <div className="d-flex justify-content-center">
           <button className="over-btn">
             <p className="color-gradient ff-flex fw-normal fs-xs lh-19 mb-0">
@@ -19,7 +19,7 @@ const Roadmap = () => {
           <div className="col-lg-6 col-12 my-lg-5 pt-300 d-flex flex-column align-items-center d-lg-block justify-content-center">
             <div
               className="map-card d-flex justify-content-center align-items-center flex-column box position-relative overflow-hidden z-1 my-lg-5 w-100"
-              data-aos="zoom-in-left"
+              data-aos="zoom-in"
             >
               <div className="d-flex justify-content-center flex-column align-items-center">
                 <p className="color-gradient fw-normal fs-sm1 lh-28 mb-0">
@@ -33,7 +33,7 @@ const Roadmap = () => {
             </div>
             <div
               className="map-card d-flex justify-content-center align-items-center flex-column box position-relative overflow-hidden z-1  mt-495 w-100"
-              data-aos="zoom-in-right"
+              data-aos="zoom-in"
             >
               <div className="d-flex justify-content-center flex-column align-items-center">
                 <p className="color-gradient fw-normal fs-sm1 lh-28 mb-0">
@@ -49,7 +49,7 @@ const Roadmap = () => {
           <div className="col-lg-6 col-12 my-lg-5 d-flex flex-column align-items-center">
             <div
               className="map-card d-flex justify-content-center align-items-center flex-column box position-relative overflow-hidden z-1 my-lg-5 w-100"
-              data-aos="zoom-in-left"
+              data-aos="zoom-in"
             >
               <div className="d-flex justify-content-center flex-column align-items-center">
                 <p className="color-gradient fw-normal fs-sm1 lh-28 mb-0">
@@ -63,7 +63,7 @@ const Roadmap = () => {
             </div>
             <div
               className="map-card d-flex justify-content-center align-items-center flex-column box position-relative overflow-hidden z-1 mt-495 w-100"
-              data-aos="zoom-in-right"
+              data-aos="zoom-in"
             >
               <div className="d-flex justify-content-center flex-column align-items-center">
                 <p className="color-gradient fw-normal fs-sm1 lh-28 mb-0">
@@ -78,7 +78,7 @@ const Roadmap = () => {
             </div>
             <div
               className="map-card d-flex justify-content-center align-items-center flex-column box position-relative overflow-hidden z-1  mt-495 w-100"
-              data-aos="zoom-in-left"
+              data-aos="zoom-in"
             >
               <div className="d-flex justify-content-center flex-column align-items-center">
                 <p className="color-gradient fw-normal fs-sm1 lh-28 mb-0">

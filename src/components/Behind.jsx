@@ -135,7 +135,7 @@ const Behind = () => {
           <div className="row">{card}</div>
         </div>
       </div>
-      <p className="fs-lg1 ff-flex text-white op-6 fw-bold txt-position1">
+      <p className="fs-lg1 ff-flex text-white op-6 fw-bold txt-position1 d-none d-md-block">
         Our Team
       </p>
       <div className="behind-ellipse"></div>

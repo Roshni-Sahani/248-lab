@@ -77,7 +77,7 @@ const Gamesec = () => {
         </div>
         <div className="row justify-content-center py-5">{card}</div>
       </div>
-      <p className="fs-lg1 ff-flex text-white op-6 fw-bold txt-position">
+      <p className="fs-lg1 ff-flex text-white op-6 fw-bold txt-position d-none d-md-block">
         About Us
       </p>
       <div className="purple-ellipse d-none d-md-block"></div>

@@ -9,7 +9,7 @@ const Form = () => {
           <div className="row align-items-center">
             <div
               className="col-lg-8 d-flex justify-content-center justify-content-lg-start ps-lg-2"
-              data-aos="flip-left"
+              data-aos="zoom-in"
             >
               <div className="form-border cards box bg-transparent w-100">
                 <p
@@ -88,7 +88,7 @@ const Form = () => {
                 </button>
               </div>
             </div>
-            <div className="col-lg-4" data-aos="flip-right">
+            <div className="col-lg-4" data-aos="zoom-in">
               <p className="text-white ff-flex fw-normal fs-sm1 lh-28 text-center text-lg-start mb-0 pt-2">
                 Stay updated
               </p>

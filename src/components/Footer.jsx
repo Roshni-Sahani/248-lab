@@ -8,12 +8,12 @@ const Footer = () => {
       <div className="">
         <div className="container pt-5 pt-lg-0" data-aos="zoom-in">
           <div className="d-flex justify-content-center">
-            <img src={logo} alt="logo" className="pt-5 mt-5" />
+            <img src={logo} alt="logo" className="pt-lg-5 mt-lg-5" />
           </div>
           <ul className="d-flex justify-content-center gap-24 mt-3">
             <li>
               <a
-                href=""
+                href="#About Us"
                 className="text-white op-70 fs-xs lh-18 text-decoration-none nav_line position-relative"
               >
                 Home
@@ -21,7 +21,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href=""
+                href="#Roadmap"
                 className="text-white op-70 fs-xs lh-18 text-decoration-none nav_line position-relative"
               >
                 Roadmap
@@ -29,7 +29,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href=""
+                href="#OurTeam"
                 className="text-white op-70 fs-xs lh-18 text-decoration-none nav_line position-relative"
               >
                 Team
@@ -37,7 +37,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href=""
+                href="#OurTeam"
                 className="text-white op-70 fs-xs lh-18 text-decoration-none nav_line position-relative"
               >
                 About Us
