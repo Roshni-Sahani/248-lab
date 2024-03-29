@@ -3,7 +3,7 @@ import line from "../assets/images/line.webp";
 
 const Roadmap = () => {
   return (
-    <div className="pt-5 mt-5 position-relative z-1  map-bg" id="Roadmap">
+    <div className="pt-lg-5 mt-lg-5 mt-3 position-relative z-1  map-bg" id="Roadmap">
       <div className="container position-relative mt-lg-5 pt-lg-5">
         <div className="d-flex justify-content-center">
           <button className="over-btn">
