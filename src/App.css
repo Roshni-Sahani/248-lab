@@ -188,7 +188,6 @@
   z-index: -1;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   opacity: 0;
-  transition: 500ms all linear;
 }
 .long-card:hover .ellipse2 {
   position: absolute;
@@ -199,6 +198,9 @@
   z-index: -1;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   opacity: 1;
+}
+.ellipse2 {
+  transition: .4s;
 }
 .long-card:hover.box::before {
   content: "";
@@ -228,6 +230,8 @@
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
+  transition: .4s;
+
 }
 .common-card {
   background: #1E1E1E73;
@@ -235,7 +239,6 @@
   padding: 49px 26px 49px 26px;
   border: 1px solid transparent;
   height: 272px;
-  transition: 500ms all linear !important;
 }
 .op-6 {
   opacity: 6%;
@@ -248,10 +251,9 @@
   margin: 5px;
   display: inline-block;
   transition: 300ms all linear !important;
-  /* font-size: 30px; */
 }
 .common-card:hover .ellipse1 {
-  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
+  background: linear-gradient(151.6deg, #d4145a66 1.85%, #fbb03b66 98.12%);
   width: 348.29px;
   height: 116.7px;
   top: 255px;
@@ -260,6 +262,9 @@
   bottom: 0;
   filter: blur(123px);
   z-index: -1;
+}
+.ellipse1 {
+  transition: .4s;
 }
 .op-70 {
   opacity: 70%;
@@ -271,13 +276,12 @@
   -webkit-text-fill-color: transparent;
 }
 .video-pos {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
-  }
-
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
 /* -----------------------from----------- */
 .form-bg {
   background-image: url(/src/assets/images/formbg.webp);
@@ -410,7 +414,7 @@
 .overflow-x-clip {
   overflow-x: clip !important;
 }
-.overflow_y_hidden{
+.overflow_y_hidden {
   overflow-y: clip !important;
 }
 /* ----------------------------padding------------------------- */
@@ -725,50 +729,39 @@
     --fs-lg: 72px;
     --fs-lg1: 187.49px;
   }
-
   .w-md-50 {
     width: 50% !important;
   }
-
   .form-border {
     padding: 40px 41px;
     background: #0000001A;
     border: none;
   }
-
   /* line-height */
   .lh-18 {
     line-height: 18px;
   }
-
   .lh-19 {
     line-height: 19px;
   }
-
   .lh-24 {
     line-height: 24px;
   }
-
   .lh-27 {
     line-height: 27px;
   }
-
   .lh-28 {
     line-height: 28px;
   }
-
   .lh-38px {
     line-height: 38px;
   }
-
   .lh-36 {
     line-height: 36px;
   }
-
   .lh-62 {
     line-height: 62px;
   }
-
   .lh-86 {
     line-height: 86px;
   }
@@ -823,7 +816,7 @@
     transform: translateX(-50%);
     opacity: 0;
   }
-.cross .crl-3 {
+  .cross .crl-3 {
     transform: rotate(-50deg) translateY(-50%);
   }
   .overflow_hidden {
