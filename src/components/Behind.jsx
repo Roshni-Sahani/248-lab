@@ -123,11 +123,11 @@ const Behind = () => {
       <div className="container mt-lg-5 pt-lg-5">
         <div className="pt-lg-5 mt-lg-5">
           <div className="d-flex justify-content-center">
-            <button className="over-btn">
-              <p className="color-gradient ff-flex fw-normal fs-xs lh-19 mb-0">
+            <span className="over-btn">
+              <span className="color-gradient ff-flex fw-normal fs-xs lh-19 mb-0">
                 Our Team
-              </p>
-            </button>
+              </span>
+            </span>
           </div>
           <p className="text-white fw-bold fs-md1 lh-62 ff-flex text-center mb-0 py-3">
             Behind our expertise

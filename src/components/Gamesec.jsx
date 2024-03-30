@@ -42,11 +42,11 @@ const Gamesec = () => {
         <div className="row align-items-center mt-5">
           <div className="col-lg-6">
             <div className="d-flex justify-content-center justify-content-lg-start">
-              <button className="over-btn" data-aos="fade-up">
-                <p className="color-gradient ff-flex fw-normal fs-xs lh-19 mb-0">
+              <span className="over-btn" data-aos="fade-up">
+                <span className="color-gradient ff-flex fw-normal fs-xs lh-19  mb-0">
                   DOERS OVER TALKERS
-                </p>
-              </button>
+                </span>
+              </span>
             </div>
             <p
               className="text-white fw-bold fs-md1 ff-flex lh-62 pt-18 text-center text-lg-start"

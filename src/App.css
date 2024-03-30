@@ -628,6 +628,9 @@
   height: 197px;
   transition: 300ms all linear !important;
 }
+.cursor-none{
+  cursor: none !important;
+}
 .map-bg {
   background-image: url(/src/assets/images/map-bg.webp);
   background-position: center;
